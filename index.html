@@ -66,7 +66,7 @@
         <details>
             <summary>Last Meeting Summurized</summary>
             <p>
-                Since this is the 1st meeting, nothing is from the last meeting!
+                Since this is the <strong>1st meeting</strong>, <em>nothing</em> is from the last meeting!
             </p>
         </details>
         </section>
@@ -77,9 +77,9 @@
         <h2 id="newthing">New Business Going to be Covered</h2>
             <p>
                 In this meeting, we firstly intoduced ourselves to each other.<br>
-                We talked about the upcoming big team-project that the professor will cover on Friday.<br>
-                Everyone has no idea what the project will be like, since nothing is ever revealed.<br>
-                We have scheduled our next meeting date to be this weekend, which is just for social activity.
+                We talked about the upcoming <b>big team-project</b> that the professor will cover on Friday.<br>
+                Everyone has <i>no idea</i> what the project will be like, since nothing is ever revealed.<br>
+                We have scheduled our next meeting date to be this <em>weekend</em>, which is just for <strong>social activity</strong>.
             </p>
             <br />
             <br />
@@ -99,22 +99,56 @@
         <h2 id="midea">Audio/Video</h2>
         <h3>Here is the audio:</h3>
         <br />
+        You might want to volume up a little bit..!
+        <br>
+        <audio controls>
+            <source src="media/cat.mp3" type="audio/mp3">
+        </audio>
         <h3>Here is the video:</h3>
         <br />
+        <video controls>
+            <source src="media/cat.mp4" type="video/mp4">
+        </video>
     </main>
     <hr />
     <footer>
-        <h6 id="email">Email submission</h6>
+        <section>
+        <p>Did you enjoy this website?</p>
+        <input type="checkbox"/>Yes!
+        <br />
+        <input type="checkbox"/>yup!
+        <br />
+        <input type="checkbox"/>Of course!
+        <br />
+        <br />
+        <hr />
+        <p>Next, choose your favorite <span>fruit!</span></p>
+        <input type="radio" id="apple" name="fruits" value="apple">
+        <label for="apple">Apple</label><br>
+        <input type="radio" id="banana" name="fruits" value="banana">
+        <label for="banana">Banana</label><br>
+        <input type="radio" id="peach" name="fruits" value="peach">
+        <label for="peach">Peach</label><br>
+        <input type="radio" id="strawberry" name="fruits" value="strawberry">
+        <label for="strawberry">Strawberry</label><br>
+        <br />
+        <hr />
+        <p>Lastly, when did you visit this webpage?</p>
+        <br />
+        <input type="date" name="visit date" value="2022-10-07"
+            min="2022-10-07" max="2032-12-31">
+        <hr />
+        <h3 id="email">Email submission for new members</h6>
         <form>
             <fieldset>
             <input type="text" placeholder="write it here" />
             <button>Submit</button>
-            <textarea cols="30" rows="3">you can write some things</textarea>
+            <textarea cols="30" rows="3">you can write some comments here if you want</textarea>
             </fieldset>
-            <fieldset>
-            <input type="text" placeholder="write it here" />
-            <button>Submit</button>
-            </fieldset>
+            <br />
+            <br />
+            <p>Extra: What is your favorite animal?</p>
+            <br>
             <input list="animals">
             <datalist id = "animals">
                <option value = "dog">
@@ -124,6 +158,10 @@
                <option value = "bear">
             </datalist>
             <br />
+            <br />
+            <p>What is your favorite animal in the list below?</p>
+            <br />
+            <br />
             <select name="animals" id="animals">
                 <option value = "dog">dog</option>
                 <option value = "cat">cat</option>
@@ -132,6 +170,10 @@
                 <option value = "bear">bear</option>
             </select>
         </form>
+        </section>
+        <br />
+        Lastly, here is my <a href="https://github.com/jip002/Lab2_Starter.git">Github repository</a> and you can take a look at it anytime!
+        <br />
         <br />
         <div>&copy; Jihun Park A15583543</div>
 
