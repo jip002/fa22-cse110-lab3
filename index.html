@@ -7,18 +7,25 @@
 
     <title>Team 28 1st Meeting Log</title>
     <link rel="shorcut icon" type="image/png" href="img/icons8-dog-64.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <style>
+        .subtitle{
+        color: #FF5599;
+        }
+    </style>
 </head>
 <body>
+    <h1 class="title">***Team 28 Meeting Log 1***</h1>
     <header>
-        <h1>***Team 28 Meeting Log 1***</h1>
         <hr>
-        <h3>--- Meeting the New Members ---</h3>
-        <h3>October 5th, 2022</h3>
+        <h3 class="subtitle">--- Meeting the New Members ---</h3>
+        <h3 class="date">October 5th, 2022</h3>
         <hr>
         <br>
-        Content List:
+        <p class="content">Content List:</p>
         <nav>
-            <ul>
+            <ul class="box-content">
                 <li><a href="#attendance">Attendance List</a></li>
                 <li><a href="#agenda">Agenda For Today</a></li>
                 <li><a href="#unfinished">Unfinished Tasks From Last Meeting</a></li>
@@ -36,7 +43,7 @@
         <br>
         <hr>
         <h2 id="attendance">Attendance List</h2>
-            <ul>
+            <ul class="box-attendance">
                 <li>Jihun</li>
                 <li>Kelvin</li>
                 <li>Gagan</li>
@@ -52,17 +59,41 @@
         <br>
         <hr>
         <h2 id="agenda">Agenda For Today</h2>
-            <ol>
-                <li>Say hi to everybody.</li>
-                <li>Know who are the team leaders.</li>
-                <li>Know who is the planner.</li>
-                <li>Know who is the designer.</li>
-                <li>Schedule the date for next meeting.</li>
+            <ol class="order">
+                <li class="one">Say hi to everybody.</li>
+                <li class="two">Know who are the team leaders.</li>
+                <li class="three">Know who is the planner.</li>
+                <li class="four">Know who is the designer.</li>
+                <li class="five">Schedule the date for next meeting.</li>
             </ol>
         <br>
         <br>
+        <div class="flexbox">
+            <div class="box-1">
+                <p>today</p>
+            </div>
+            <div class="box-2">
+                <p>tomorrow</p>
+            </div>
+            <div class="box-3">
+                <p>yesterday</p>
+            </div>
+        </div>
         <br>
-        <hr>
+        <div class="grid">
+            <div class="grid-1">
+                <p>past</p>
+            </div>
+            <div class="grid-2">
+                <p>present</p>
+            </div>
+            <div class="grid-3">
+                <p>future</p>
+            </div>
+        </div>
+        <h3 style="color: red">random words</h3>
+        <p>other random words</p>
+        <p>another random word</p>
         <h2 id="unfinished">Last Meeting Log</h2>
         <section>
         <details>
@@ -174,7 +205,7 @@
         </form>
         </section>
         <br>
-        Lastly, here is my <a href="https://github.com/jip002/Lab2_Starter.git">Github repository</a> and you can take a look at it anytime!
+        <p>Lastly, here is my <a class="link" href="https://github.com/jip002/Lab2_Starter.git">Github repository</a> and you can take a look at it anytime!</p>
         <br>
         <br>
         <div>&copy; Jihun Park A15583543</div>
